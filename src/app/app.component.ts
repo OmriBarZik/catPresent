@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+  title = 'surprize!';
   URL = 'https://cataas.com/cat';
 
   constructor() { }
@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
     this.URL = 'https://cataas.com/cat/cute/says/' + text + '?' + new Date().getTime();
   }
 
-  anthergif() {
+  antherGif() {
     this.URL = 'https://cataas.com/cat/gif?' + new Date().getTime();
   }
 }
