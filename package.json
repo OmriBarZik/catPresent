@@ -9,6 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "precommit":"ng lint",
+    "deploy:only":"firebase deploy",
     "predeploy": "npm run lint && npm run build --prod",
     "deploy": "firebase deploy"
   },
