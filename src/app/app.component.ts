@@ -9,6 +9,7 @@ import { Observable } from 'rxjs/Observable';
 export class AppComponent implements OnInit {
   title = 'surprize!';
   URL = 'https://cataas.com/cat';
+  massage = 'לשימוש ברגעים קשים';
 
   constructor() { }
 
