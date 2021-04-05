@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'surprize!';
-  URL = 'https://cataas.com/cat';
+  url = 'https://cataas.com/cat';
   massage = 'לשימוש ברגעים קשים';
 
   constructor() { }
@@ -16,16 +16,16 @@ export class AppComponent implements OnInit {
   }
 
   antherPicture() {
-    this.URL = 'https://cataas.com/cat?' + new Date().getTime();
+    this.url = 'https://cataas.com/cat?' + new Date().getTime();
   }
 
   antherCutePicture() {
     const text = 'love you!';
-    this.URL = 'https://cataas.com/cat/cute/says/' + text + '?' + new Date().getTime();
+    this.url = 'https://cataas.com/cat/cute/says/' + text + '?' + new Date().getTime();
   }
 
   antherGif() {
-    this.URL = 'https://cataas.com/cat/gif?' + new Date().getTime();
+    this.url = 'https://cataas.com/cat/gif?' + new Date().getTime();
   }
 }
 
